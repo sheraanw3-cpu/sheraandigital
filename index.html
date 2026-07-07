@@ -1,18 +1,52 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheraan Digital</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin: 0; padding: 20px; text-align: center; }
-        .card { background: rgba(255, 255, 255, 0.1); padding: 20px; margin: 10px; border-radius: 15px; transition: 0.3s; cursor: pointer; }
-        .card:hover { transform: translateY(-10px); background: rgba(255, 255, 255, 0.2); }
-        .btn { background: #ff4757; color: white; padding: 15px 30px; border: none; border-radius: 5px; text-decoration: none; font-weight: bold; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+        header { background: #333; color: #fff; padding: 2rem; text-align: center; }
+        .container { padding: 20px; max-width: 800px; margin: auto; }
+        .services, .why-us { margin-top: 30px; }
+        .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .card { border: 2px solid #00d4ff; padding: 15px; border-radius: 10px; text-align: center; }
+        footer { background: #f4f4f4; padding: 20px; text-align: center; margin-top: 40px; }
     </style>
 </head>
 <body>
+
+<header>
     <h1>SHERAAN DIGITAL</h1>
-    <p>Modern Websites for Small Businesses.</p>
-    <a href='mailto:SHERAANW3@GMAIL.COM' class='btn'>Get Started</a>
-    <div class='card'><h3>Web Design</h3></div>
-    <div class='card'><h3>E-Commerce</h3></div>
+    <p>We build modern websites for small businesses. Fast, affordable and mobile-friendly.</p>
+</header>
+
+<div class="container">
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>🌐 BUSINESS WEBSITE DESIGN</li>
+            <li>🛒 E-COMMERCE WEBSITE</li>
+            <li>📱 MOBILE-FRIENDLY WEBSITES</li>
+            <li>⚡ WEBSITE MAINTENANCE</li>
+        </ul>
+    </section>
+
+    <section class="why-us">
+        <h2>Why Choose Sheraan Digital?</h2>
+        <div class="card-grid">
+            <div class="card">Modern Website Design</div>
+            <div class="card">Mobile Friendly</div>
+            <div class="card">Fast Delivery</div>
+            <div class="card">Dedicated Support</div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <h2>Contact us</h2>
+    <p>Email: SHERAANW3@GMAIL.COM</p>
+</footer>
+
 </body>
 </html>
